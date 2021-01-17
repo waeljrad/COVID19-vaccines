@@ -11,13 +11,13 @@ In order to achieve this, we follow three steps:
     
 2.	Assigning categories: this is semi-manual process which plays a role in the prediction quality. Categories are assigning via two ways:
     
-a. The first one is by classifying the tweets directly one-by-one. This is a manual time-consuming process but will generate higher precision the end 
+    a. The first one is by classifying the tweets directly one-by-one. This is a manual time-consuming process but will generate higher precision the end 
         
         Classified	   : 140
         Total	        : 2.366
         Ratio	        : 5.92%
 
-b. By extracting hashtags, classifying them one by one and set an algorithm to elect a category for each tweet based to the highest category occurrences. This is a temporary classification that uses some of the classified hashtags until step a. is finished
+    b. By extracting hashtags, classifying them one by one and set an algorithm to elect a category for each tweet based to the highest category occurrences. This is a temporary classification that uses some of the classified hashtags until step a. is finished
 
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
 
