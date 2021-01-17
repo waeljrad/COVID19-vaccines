@@ -13,9 +13,9 @@ In order to achieve this, we follow three steps:
     
     a. The first one is by classifying the tweets directly one-by-one. This is a manual time-consuming process but will generate higher precision the end 
         
-        Classified: 253
+        Classified: 266
         Total:      2.366
-        Ratio:      10.69%
+        Ratio:      11.24%
 
     b. By extracting hashtags, classifying them one by one and set an algorithm to elect a category for each tweet based to the highest category occurrences. This is a temporary classification that uses some of the classified hashtags until step a. is finished
 
