@@ -9,15 +9,20 @@ In order to achieve this, we follow three steps:
 
 1.	Text processing and data preparation: in this step we format the data, delete GDPR related information, extract links from tweets and checking some data features
     
-2.	Assigning categories: this is semi-manual process which plays a role in the prediction quality. Categories are assigning via two ways:
-    
-    a. The first one is by classifying the tweets directly one-by-one. This is a manual time-consuming process but will generate higher precision the end 
+2.	Assigning categories: this is semi-manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a manual time-consuming process but will generate higher precision the end
         
-        Classified: 347
-        Total:      2.366
-        Ratio:      14.67%
-
-    b. By extracting hashtags, classifying them one by one and set an algorithm to elect a category for each tweet based to the highest category occurrences. This is a temporary classification that uses some of the classified hashtags until step a. is finished
+        Approval	1.48%
+        Business	1.10%
+        Health	1.56%
+        Mass vaccination	0.17%
+        Other	1.01%
+        Politics	1.44%
+        Shipment	3.80%
+        Single vaccination	0.89%
+        Superstition	1.48%
+        Vaccination campaign	0.97%
+        Vaccine	1.35%
+        Unclassified	84.74%
 
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
 
