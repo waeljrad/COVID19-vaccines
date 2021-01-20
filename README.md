@@ -22,6 +22,7 @@ In order to achieve this, we follow three steps:
         Superstition	            1.48%
         Vaccination campaign	    0.97%
         Vaccine	                    1.35%
+        
         Unclassified	            84.74%
 
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
