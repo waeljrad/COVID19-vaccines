@@ -13,16 +13,16 @@ In order to achieve this, we follow three steps:
         
         Approval	            1.48%
         Business	            1.10%
-        Health	                1.56%
+        Health	                    1.56%
         Mass vaccination	    0.17%
-        Other	                1.01%
+        Other	                    1.01%
         Politics	            1.44%
         Shipment	            3.80%
         Single vaccination	    0.89%
-        Superstition	        1.48%
-        Vaccination campaign	0.97%
-        Vaccine	                1.35%
-        Unclassified	        84.74%
+        Superstition	            1.48%
+        Vaccination campaign	    0.97%
+        Vaccine	                    1.35%
+        Unclassified	            84.74%
 
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
 
