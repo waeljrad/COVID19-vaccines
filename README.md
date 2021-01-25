@@ -3,13 +3,13 @@ This project is still in progress
 The data source is the following:
 https://www.kaggle.com/gpreda/pfizer-vaccine-tweets
 
-This data set from Kaggle contains tweets about COVID19 vaccines with lists of Hashtags. The goal of this project is classifying these tweets to distinguish health-oriented, political and superstition based on NLP algorithms.
+This data set from Kaggle contains tweets about COVID19 vaccines with lists of Hashtags. The goal of this project is classifying these tweets to distinguish health-oriented, political and junk knowledge based on NLP algorithms.
 
 In order to achieve this, we follow three steps:
 
-1.	Text processing and data preparation: in this step we format the data, delete GDPR related information, extract links from tweets and checking some data features
+1.	Text processing and data preparation: in this step we format the data, delete GDPR related information, extract links from tweets and check some data features
     
-2.	Assigning categories: this is semi-manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a manual time-consuming process but will generate higher precision the end
+2.	Assigning categories: this is manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a time-consuming process but will generate higher precision the end
         
         Approval                  | 190 | % 6.38 
         Business                  | 41  | % 1.38 
