@@ -11,19 +11,20 @@ In order to achieve this, we follow three steps:
     
 2.	Assigning categories: this is manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a time-consuming process but will generate higher precision the end
         
-        Approval                  | 179  | %6.01 
-        Business                  | 42   | %1.41 
-        Health                    | 90   | %3.02 
-        Junk Knowledge            | 140  | %4.70 
-        Other                     | 95   | %3.19 
-        Politics                  | 104  | %3.49 
-        Procurement and Logistics | 174  | %5.84 
-        Unique vaccination        | 512  | %17.19 
-        Vaccination campaign      | 228  | %7.66 
-        Vaccine                   | 194  | %6.51 
-        Side effects              | 92   | %3.09 
+        Approval                   | 185 | % 6.21 
+        Business                   | 47  | % 1.58 
+        Health                     | 97  | % 3.26 
+        Junk Knowledge             | 154 | % 5.17 
+        Other                      | 128 | % 4.30 
+        Politics                   | 111 | % 3.73 
+        Procurement and Logistics  | 189 | % 6.35 
+        Unique vaccination         | 574 | % 19.27 
+        Vaccination campaign       | 265 | % 8.90 
+        Vaccine                    | 236 | % 7.92 
+        Side effects               | 99  | % 3.32 
 
-        Unclassified              | 1128 | %37.88 
+        Unclassified               | 893 | % 29.99 
+
     
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
 
