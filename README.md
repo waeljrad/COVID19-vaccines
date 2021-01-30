@@ -25,7 +25,7 @@ In order to achieve this, we follow three steps:
 
         Unclassified              | 594 | %19.95 
 
-        DISCLAIMER: these classifications are the result of a manual effort whithout medical proper knowledge. Medical professionals     may have a different opinion.
+        DISCLAIMER: these classifications are the result of a manual effort whithout medical proper knowledge. Medical professionals may have a different opinion.
 
     
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
