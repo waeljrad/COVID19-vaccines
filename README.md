@@ -11,19 +11,17 @@ In order to achieve this, we follow three steps:
     
 2.	Assigning categories: this is manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a time-consuming process but will generate higher precision the end
         
-        Approval                  | 225 | % 7.56 
-        Business                  | 48  | % 1.61 
-        Health                    | 117 | % 3.93 
-        Junk Knowledge            | 212 | % 7.12 
-        Other                     | 180 | % 6.04 
-        Politics                  | 144 | % 4.84 
-        Procurement and Logistics | 211 | % 7.09 
-        Unique vaccination        | 699 | % 23.47 
-        Vaccination campaign      | 360 | % 12.09 
-        Vaccine                   | 352 | % 11.82 
-        Side effects              | 134 | % 4.50 
-
-        Unclassified              | 296 | % 9.94 
+        Approval                  | 230 | % 7.72 
+        Business                  | 50  | % 1.68 
+        Health                    | 127 | % 4.26 
+        Junk Knowledge            | 224 | % 7.52 
+        Other                     | 204 | % 6.85 
+        Politics                  | 154 | % 5.17 
+        Procurement and Logistics | 231 | % 7.76 
+        Unique vaccination        | 780 | % 26.19 
+        Vaccination campaign      | 418 | % 14.04 
+        Vaccine                   | 400 | % 13.43 
+        Side effects              | 160 | % 5.37 
 
         DISCLAIMER: these classifications are the result of a manual effort whithout medical proper knowledge. Medical professionals may have a different opinion.
 
