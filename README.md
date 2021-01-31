@@ -9,7 +9,7 @@ In order to achieve this, we follow three steps:
 
 1.	Text processing and data preparation: in this step we format the data, delete GDPR related information, extract links from tweets and check some data features
     
-2.	Assigning categories: this is manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a time-consuming process but will generate higher precision the end
+2.	Assigning categories: this is manual process which plays a role in the prediction quality. We have to classify the tweets directly one-by-one, which is a time-consuming process:
         
         Approval                  | 230 | % 7.72 
         Business                  | 50  | % 1.68 
@@ -28,4 +28,4 @@ In order to achieve this, we follow three steps:
     
 3.	Once categories are assigned, an NLP vectorizer is used to predict the tweets.
 
-At the end we will have a classifier to predict whether the tweet has real informative value in regards to COVID19 and helps to eliminate all junk-science or any other irrelevant information.
+At the end we have a classifier to predict whether the tweet has real informative value in regards to COVID19 and helps to eliminate all junk-science or any other irrelevant information.
